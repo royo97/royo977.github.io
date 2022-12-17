@@ -1,0 +1,336 @@
+/* Pagina Principal */
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(#f9305cd2, #f50d34e0, #fa0965e3, #e41cb8f3);
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.logo2 {
+  width: 30px;
+  height: 30px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  position: absolute;
+}
+
+#inicio {
+  /*position: relative;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../imag/primera/dulce3.jpg");
+  height: 500px;
+  width: auto;
+}
+
+.boton {
+  color: rgb(255, 255, 255);
+  background-color: #f9305cd2;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+  border: none;
+}
+
+.bloque-inicio {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.705);
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#menu a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0px;
+}
+
+#menu a:hover {
+  background: rgb(2, 0, 2);
+}
+
+#menu button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  max-height: 420px;
+}
+
+.wrapper-local {
+  background-color: #f3f3f3;
+  border: #f3f3f3;
+}
+
+.ftco-section {
+  background-color: rgba(146, 35, 63, 0.432);
+  padding-top: 20px;
+}
+
+.seccion-mapa {
+  width: 100%;
+  padding: 50px 140px;
+  padding-top: 85px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.459);
+  box-sizing: border-box;
+}
+
+#contenedor-formulario {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  transform: translate(-50, -50);
+  background: #fbfafa;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+#menu-producto {
+  background-image: url("../img/banner_principal.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+
+footer {
+  min-height: 150px;
+  max-width: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
+.container-menu {
+  padding: 70px;
+}
+
+/*Cards*/
+.container-card {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgb(22, 22, 22);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(46, 40, 40, 0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+}
+
+.card .contenido-card {
+  padding: 15px;
+  text-align: center;
+}
+
+.card .contenido-card h3 {
+  margin-bottom: 15px;
+  color: #7a7a7a;
+}
+
+.card .contenido-card p {
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+}
+
+.card .contenido-card a:hover {
+  background: #2fb4cc;
+  color: #fff;
+}
+/* Contact */
+
+.container-fluid {
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+.seccion {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.boton-formulario {
+  color: black;
+  background: #2fb4cc;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+#contactenos {
+  position: relative;
+}
+
+#contactenos iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(0.5);
+}
+
+#contactenos form {
+  padding: 40px;
+  background-image: linear-gradient(#f9305cd2, #f50d34e0, #fa0965e3, #e41cb8f3);
+}
+
+#contactenos form .form-block {
+  width: 100%;
+  margin-bottom: 11px;
+}
+
+#contactenos form .form-block .form-control {
+  display: block;
+  height: 40px;
+  font-size: 14px;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+#contactenos form .form-block textarea {
+  display: block;
+  height: 100px;
+  font-size: 16px;
+  width: 100%;
+  padding: 5px 10px;
+}
+.columna-41 {
+  width: 41.66%;
+}
+
+.margen-58 {
+  margin-left: 58.33%;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .columna-mobile-100 {
+    width: 100%;
+  }
+
+  .columna-mobile-50 {
+    width: 50%;
+  }
+
+  .margen-mobile-0 {
+    margin-left: 0;
+  }
+
+  .sinpadding-mobile {
+    padding: 0;
+  }
+
+  #inicio {
+    height: 100vh;
+  }
+
+  #inicio img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  #recomendados .bloque-recomendado {
+    margin-bottom: 15px;
+  }
+
+  #contactenos {
+    padding: 0;
+  }
+
+  #contactenos iframe {
+    position: relative;
+    height: 50vh;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-card {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin: 15px;
+  }
+}
